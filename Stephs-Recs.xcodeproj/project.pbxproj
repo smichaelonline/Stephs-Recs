@@ -13,6 +13,12 @@
 		9B36B006299B1D14001BB84B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B36B005299B1D14001BB84B /* Preview Assets.xcassets */; };
 		9B36B011299B2014001BB84B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B36B010299B2014001BB84B /* MainView.swift */; };
 		9B36B013299B2332001BB84B /* BlogPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B36B012299B2332001BB84B /* BlogPost.swift */; };
+		9B65C4B8299B2BC800B6A9EB /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B65C4B7299B2BC800B6A9EB /* ListView.swift */; };
+		9B65C4BA299B2C4100B6A9EB /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B65C4B9299B2C4100B6A9EB /* FavoritesView.swift */; };
+		9B65C4BC299B310300B6A9EB /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B65C4BB299B310300B6A9EB /* AboutView.swift */; };
+		9B65C4BE299B371700B6A9EB /* PostRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B65C4BD299B371700B6A9EB /* PostRow.swift */; };
+		9B65C4C0299B38FC00B6A9EB /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B65C4BF299B38FC00B6A9EB /* PostList.swift */; };
+		9B65C4C3299B3B4600B6A9EB /* AllBlogPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B65C4C2299B3B4600B6A9EB /* AllBlogPosts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +29,12 @@
 		9B36B005299B1D14001BB84B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9B36B010299B2014001BB84B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		9B36B012299B2332001BB84B /* BlogPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPost.swift; sourceTree = "<group>"; };
+		9B65C4B7299B2BC800B6A9EB /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		9B65C4B9299B2C4100B6A9EB /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		9B65C4BB299B310300B6A9EB /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		9B65C4BD299B371700B6A9EB /* PostRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRow.swift; sourceTree = "<group>"; };
+		9B65C4BF299B38FC00B6A9EB /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
+		9B65C4C2299B3B4600B6A9EB /* AllBlogPosts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllBlogPosts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 				9B36B000299B1D12001BB84B /* ContentView.swift */,
 				9B36B002299B1D14001BB84B /* Assets.xcassets */,
 				9B36B004299B1D14001BB84B /* Preview Content */,
+				9B65C4C2299B3B4600B6A9EB /* AllBlogPosts.swift */,
 			);
 			path = "Stephs-Recs";
 			sourceTree = "<group>";
@@ -85,8 +98,21 @@
 			isa = PBXGroup;
 			children = (
 				9B36B010299B2014001BB84B /* MainView.swift */,
+				9B65C4B7299B2BC800B6A9EB /* ListView.swift */,
+				9B65C4B9299B2C4100B6A9EB /* FavoritesView.swift */,
+				9B65C4BB299B310300B6A9EB /* AboutView.swift */,
+				9B65C4C1299B390400B6A9EB /* Posts */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		9B65C4C1299B390400B6A9EB /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				9B65C4BD299B371700B6A9EB /* PostRow.swift */,
+				9B65C4BF299B38FC00B6A9EB /* PostList.swift */,
+			);
+			path = Posts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,8 +186,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B36B001299B1D12001BB84B /* ContentView.swift in Sources */,
+				9B65C4C0299B38FC00B6A9EB /* PostList.swift in Sources */,
+				9B65C4BC299B310300B6A9EB /* AboutView.swift in Sources */,
 				9B36B011299B2014001BB84B /* MainView.swift in Sources */,
+				9B65C4BA299B2C4100B6A9EB /* FavoritesView.swift in Sources */,
+				9B65C4B8299B2BC800B6A9EB /* ListView.swift in Sources */,
 				9B36AFFF299B1D12001BB84B /* Stephs_RecsApp.swift in Sources */,
+				9B65C4C3299B3B4600B6A9EB /* AllBlogPosts.swift in Sources */,
+				9B65C4BE299B371700B6A9EB /* PostRow.swift in Sources */,
 				9B36B013299B2332001BB84B /* BlogPost.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

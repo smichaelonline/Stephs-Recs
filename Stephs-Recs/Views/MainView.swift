@@ -24,14 +24,15 @@ struct MainView: View {
           Divider()
           
           VStack {
-            ForEach(allPosts) { post in
+            ForEach (allPosts) { post in
                 Image(post.image)
                   .resizable()
-                  .scaledToFit()
-                  .frame(width: 350, height:300)
+                  .aspectRatio(contentMode: .fit)
+                  .frame(width: 350, height:250)
                   .padding(.bottom, -30)
               Text(post.brand)
                 .font(.title2)
+                .padding(.top, 35)
               Text(post.product)
                 .font(.title3)
             }

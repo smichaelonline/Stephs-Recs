@@ -15,6 +15,21 @@ struct ContentView: View {
           Image(systemName:"house")
           Text("Home")
         }
+      ListView()
+        .tabItem{
+          Image(systemName:"list.bullet")
+          Text("All Posts")
+        }
+      FavoritesView()
+        .tabItem{
+          Image(systemName: "star.fill")
+          Text("Favorites")
+        }
+      AboutView()
+        .tabItem{
+          Image(systemName:"info.circle")
+          Text("About")
+        }
     }
   }
 }
